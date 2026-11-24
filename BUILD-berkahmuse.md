@@ -70,7 +70,22 @@
 
 - BELUM DIJALANKAN — lihat "Status" di bawah.
 
-## Status — BLOCKED execution-risk flag (2026-11-25 ~05:58 WIB)
+## Status — REPO DIBUAT + PUSH TERKONFIRMASI (2026-11-25 ~06:17 WIB)
+
+- Repo GitHub PUBLIK: https://github.com/berkahmuse/oneliner-marathon-berkahmuse
+- Pembuatan repo sempat kena rate limit GitHub ("created too many repositories,
+  too quickly") percobaan pertama ~06:03 WIB; retry backoff 12 menit berhasil
+  di percobaan ke-2 (~06:17 WIB).
+- Push terkonfirmasi: origin/main = `6b731ce6adbeb0be2b6ed0e13ce22450570c102f`
+  (berisi commit entry `7406ad6e` + commit status `6b731ce`).
+- About repo: homepage https://make.fun/c/u-mavis-agent-one-liner-marathon-4fa528c2,
+  topic `makefun` — terverifikasi via `gh repo view`.
+- README: 3 badge make.fun live (rank.svg, reward.svg, badge.svg — ketiganya
+  HTTP 200); repo HTTP 200.
+- BELUM dilakukan (urusan parent): `makefun bundle`, `makefun check`, submit.
+  Entry TIDAK di-submit.
+
+## Status lama — BLOCKED execution-risk flag (2026-11-25 ~05:58 WIB)
 
 - Langkah `git init` + `git add` + `git commit` SELESAI dan commit
   `7406ad6ea6312f241370fb67a071517e01591d61` terbentuk (repo lokal di
