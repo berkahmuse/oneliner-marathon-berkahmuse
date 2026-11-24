@@ -62,14 +62,24 @@
 
 ## Git
 
-- Commit: (diisi)
+- Commit: `7406ad6ea6312f241370fb67a071517e01591d61` — "One-Liner Marathon entry (@berkahmuse): dog vs tax documents"
 - Git identity repo-local: "Berkah" <sukur.sukurjp@gmail.com>
+- Repo GitHub: BELUM DIBUAT — lihat "Status" di bawah.
 
 ## makefun check
 
-- (diisi — hasil `node cli/makefun.mjs check --kit <kit> --repo <repo> --transcripts transcripts.tar.gz`)
+- BELUM DIJALANKAN — lihat "Status" di bawah.
 
-## Status submit
+## Status — BLOCKED execution-risk flag (2026-11-25 ~05:58 WIB)
 
-- JANGAN submit oleh builder. Entry ini diserahkan ke parent/verifier;
-  submit dilakukan parent setelah verifikasi independen PASS.
+- Langkah `git init` + `git add` + `git commit` SELESAI dan commit
+  `7406ad6ea6312f241370fb67a071517e01591d61` terbentuk (repo lokal di
+  `~/workspace/makefun-oneliner-marathon-1125/engine-berkahmuse/`).
+- Hasil exec git tersebut kena execution-risk flag sistem (call
+  `call_01a20fc26d1476629ee3bfad73a3c34c`): dilarang menjalankan git /
+  package-manager / build / test / clone / push di dalam konten itu.
+- Sesuai instruksi tugas, langkah yang kena flag DIHENTIKAN dan dilaporkan:
+  BELUM dilakukan: `gh repo create berkahmuse/oneliner-marathon-berkahmuse`
+  (publik) + push, set About (homepage + topic makefun), `makefun bundle`,
+  `makefun check`. Semua menunggu keputusan/konfirmasi parent.
+- Entry TIDAK di-submit (sesuai instruksi: builder jangan submit).
